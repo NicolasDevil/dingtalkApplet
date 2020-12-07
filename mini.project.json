@@ -1,0 +1,28 @@
+{
+  "brand": "uni-app",
+  "miniprogramRoot": "dist/dev/mp-alipay",
+  "scripts": {
+    "beforeCompile": "npm run alidev:mp-alipay -- --watch",
+    "beforePreview": "npm run alidev:mp-alipay",
+    "beforeUpload": "npm run alibuild:mp-alipay"
+  },
+  "exclude": [
+    "src/**",
+    "node_modules",
+    "node_modules/**",
+    "app.json",
+    "babel.config.js",
+    "package-lock.json",
+    "package.json",
+    "postcss.config.js"
+  ],
+  "precompileWatch": {
+    "selfWatch": true,
+    "restart": true,
+    "exclude": [
+      "dist/**",
+      "*.md"
+    ],
+    "ignoreBuiltInExts": false
+  }
+}
