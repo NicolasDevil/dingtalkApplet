@@ -34,6 +34,7 @@
           <span class="tab-panel-items">利率：<span class="marked">5.88%</span></span>
         </div>
       </div>
+      <Loadmore status="loading" color="#333"></Loadmore>
     </div>
 
     <div class="add-fixed"><img src="@/static/loans/h5_images_setup.png"></div>
