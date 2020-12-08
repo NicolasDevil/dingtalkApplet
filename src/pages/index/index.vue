@@ -26,7 +26,7 @@
 			return {
 				list: [{
             image: 'https://cdn.uviewui.com/uview/swiper/1.jpg',
-            path: "/pages/loans/index",
+            path: "/pages/mortgageLoans/index",
 						title: '按揭房贷'
 					},
 					{

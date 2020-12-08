@@ -14,7 +14,7 @@
 			}
     },
     {
-			"path": "pages/loans/index",
+			"path": "pages/mortgageLoans/index",
 			"style": {
         "navigationBarTitleText": "按揭房贷",
         "backgroundColor": "#fff"
