@@ -19,6 +19,13 @@
         "navigationBarTitleText": "按揭房贷",
         "backgroundColor": "#fff"
 			}
+    },
+    {
+			"path": "pages/mortgageLoans/business/detail/index",
+			"style": {
+        "navigationBarTitleText": "业务详情",
+        "backgroundColor": "#F8F8F8"
+			}
 		}
   ],
   "easycom": {

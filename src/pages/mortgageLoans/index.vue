@@ -18,7 +18,7 @@
       </div>
 		</u-sticky>
     <div class="tab-panel">
-      <div class="tab-panel-item" v-for="(items, index) in defaults" :key="index">
+      <div class="tab-panel-item" v-for="(items, index) in defaults" :key="index" @click="pageJump(index)">
         <div class="tab-panel-list tab-header">
           <div class="tab-title">
             <div class="tag">1</div>
@@ -54,6 +54,9 @@ export default {
   methods: {
     tabsChange(id) { // 监控tab切换
       this.tabid = id;
+    },
+    pageJump(id) {  // 页面点击跳转
+      uni.navigateTo({ url: `/pages/mortgageLoans/business/detail/index?id=${id}` })
     }
   }
 };

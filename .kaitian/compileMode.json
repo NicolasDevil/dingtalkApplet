@@ -1,0 +1,9 @@
+{
+  "current": null,
+  "modes": [
+    {
+      "title": "业务详情",
+      "page": "pages/mortgageLoans/business/detail/index"
+    }
+  ]
+}
